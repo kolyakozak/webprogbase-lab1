@@ -1,0 +1,10 @@
+#dev_image {
+    height: 140px;
+    float: left;
+    border-radius: 70px;
+    margin: 10px;
+    border: 2px solid grey;
+}
+.container {
+    text-align: left;
+}

@@ -1,44 +1,52 @@
-/* html {
-    background-color: rgb(218, 218, 104);
-} */
+html {
+    background-image: url(../images/bg.jpeg);
+}
 body {
-    width: 960px;
     margin: 0 auto;
+    width: 960px;
+    height: 700px;
     background-color: white;
     text-align: center;
     
 }
 .user_image {
-    border-radius: 100px;
+    border-radius: 80px;
     border: 3px solid grey;
-    width: 30%;
-    height: 40%;
+    height: 160px;
 }
-#logo {
-    height: 30px;
-    padding: 0 0;
+#logo img {
+    height: 47px;
+    vertical-align: middle;
+    padding: 0;
 }
 .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     width: 100%;
-    height: 50px;
-    padding-left: 0;
-    margin-left: 0;
-    background-color: rgb(60, 180, 164);
+    background-color: rgb(238, 137, 79);
 }
-.menu a {
+.menu li {
+    float: left;
+}
+.menu li a {
+    padding: 0;
+    display: block;
+    text-align: center;
     text-decoration: none;
     font-family: sans-serif;
-    display: inline-block;
-    vertical-align: middle;
     color: rgb(15, 15, 15);
-    padding: 10px 20px;
+}
+.menu li a:not(#logo) {
+    padding: 14px 16px;
 }
 .menu a:hover {
     background-color: #0066FF;
 }
-#logo {
-    margin: 0;
-    padding: 0;
+.menu a:active {
+    background: gray;
+    color: gray;
 }
 table {
     border-collapse: collapse;
